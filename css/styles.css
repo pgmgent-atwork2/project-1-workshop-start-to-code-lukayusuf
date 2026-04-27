@@ -72,3 +72,9 @@ button:hover {
 p {
     margin-bottom: 15px;
 }
+
+span {
+    text-transform: uppercase;
+    color: red;
+    border: 2px solid red;
+}
