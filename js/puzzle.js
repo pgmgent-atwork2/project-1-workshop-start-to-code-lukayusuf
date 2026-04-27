@@ -1,6 +1,7 @@
 const grid = document.getElementById("puzzle-grid");
-const schudKnop = document.getElementById("schudKnop");
-const oplosKnop = document.getElementById("oplosKnop");
+const shuffleBtn = document.getElementById("shuffleBtn");
+const solveBtn = document.getElementById("solveBtn");
+const message = document.getElementById("win-message");
 
 shuffleBtn.addEventListener("click", shuffleBoard);
 solveBtn.addEventListener("click", solve);
@@ -46,18 +47,34 @@ function moveTile(clickedIndex) {
         tiles[emptyIndex] = temp;
 
         drawBoard();
-        isSolved();
+        checkWin();
     }
 }
 
 function shuffleBoard() {
     tiles.sort(() => Math.random() - 0.5);
+    message.textContent = "";
     drawBoard();
 }
 
 function solve() {
     tiles = [0, 1, 2, 3, 4, 5, 6, 7, null];
     drawBoard();
+}
+
+function checkWin() {
+    const isSolved = tiles.every((tile, index) => {
+        if (index === tiles.length - 1) {
+            return tile === null;
+        }
+        return tile === index;
+    });
+
+    if (isSolved) {
+        message.textContent = "Proficiat! Je hebt de puzzel opgelost.";
+    } else {
+        message.textContent = "";
+    }
 }
 
 drawBoard();
