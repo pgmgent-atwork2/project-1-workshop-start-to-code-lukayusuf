@@ -1,4 +1,9 @@
 const grid = document.getElementById("puzzle-grid");
+const schudKnop = document.getElementById("schudKnop");
+const oplosKnop = document.getElementById("oplosKnop");
+
+shuffleBtn.addEventListener("click", shuffleBoard);
+solveBtn.addEventListener("click", solve);
 
 let tiles = [0, 1, 2, 3, 4, 5, 6, 7, null];
 
@@ -43,6 +48,16 @@ function moveTile(clickedIndex) {
         drawBoard();
         isSolved();
     }
+}
+
+function shuffleBoard() {
+    tiles.sort(() => Math.random() - 0.5);
+    drawBoard();
+}
+
+function solve() {
+    tiles = [0, 1, 2, 3, 4, 5, 6, 7, null];
+    drawBoard();
 }
 
 drawBoard();
