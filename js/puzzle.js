@@ -21,4 +21,28 @@ function drawBoard() {
   });
 }
 
+function moveTile(clickedIndex) {
+    const emptyIndex = tiles.indexOf(null);
+
+    const clickedRow = Math.floor(clickedIndex / 3);
+    const clickedColumn = clickedIndex % 3;
+
+    const emptyRow = Math.floor(emptyIndex / 3);
+    const emptyColumn = emptyIndex % 3;
+
+    const isNeighbor =
+        (clickedRow === emptyRow && Math.abs(clickedColumn - emptyColumn) === 1) ||
+        (clickedColumn === emptyColumn && Math.abs(clickedRow - emptyRow) === 1);
+
+    if (isNeighbor) {
+        const temp = tiles[clickedIndex];
+
+        tiles[clickedIndex] = tiles[emptyIndex];
+        tiles[emptyIndex] = temp;
+
+        drawBoard();
+        isSolved();
+    }
+}
+
 drawBoard();
