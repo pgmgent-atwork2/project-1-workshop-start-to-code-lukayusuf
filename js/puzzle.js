@@ -1,5 +1,7 @@
 const grid = document.getElementById("puzzle-grid");
 
+let tiles = [0, 1, 2, 3, 4, 5, 6, 7, null];
+
 function drawBoard() {
   grid.innerHTML = "";
 
