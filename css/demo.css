@@ -37,3 +37,9 @@ h1 {
     background-image: none;
     cursor: default;
 }
+
+.tile:not(.leeg):hover {
+    background-color: none;
+    transform: scale(1.03);
+    filter: brightness(1.1);
+}
