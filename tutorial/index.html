@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/css/styles.css" rel="stylesheet">
-    <title>Puzzle Tutorial</title>
+    <title>Puzzel Tutorial</title>
 </head>
 
 <body>
@@ -42,7 +42,7 @@
                     Zorg dat de bestandsnamen exact kloppen! <span>screenshots toevoegen van de knoppen</span>
                 </p>
                 <p>
-                    Voeg ook een folder toe genaamd assets. Hierin zullen we de foto van de puzzle toevoegen.
+                    Voeg ook een folder toe genaamd assets. Hierin zullen we de foto van de puzzel toevoegen.
                     <span>screenshots toevoegen van de knoppen</span>
                 </p>
             </article>
@@ -90,8 +90,8 @@
                 <span>screenshots toevoegen van de code</span>
             </p>
 
-            <pre><code>&lt;h1&gt;Puzzle Slider&lt;/h1&gt;
-&lt;div id="puzzle-grid"&gt;&lt;/div&gt;</code></pre>
+            <pre><code>&lt;h1&gt;Puzzel&lt;/h1&gt;
+&lt;div id="puzzel-grid"&gt;&lt;/div&gt;</code></pre>
 
             <p>CSS meegeven voor body en title:</p>
 
@@ -128,7 +128,7 @@ h1 {
                 We beginnen met het ophalen van onze grid en het aanmaken van de array die de puzzeltegels voorstelt.
             </p>
         
-            <pre><code>const grid = document.getElementById("puzzle-grid");
+            <pre><code>const grid = document.getElementById("puzzel-grid");
         let tegels = [0, 1, 2, 3, 4, 5, 6, 7, null];</code></pre>
         
             <p>
@@ -212,7 +212,7 @@ h1 {
                 Daarom geven we het grid, de tegels en het lege vakje nu vorm.
             </p>
         
-            <pre><code>#puzzle-grid {
+            <pre><code>#puzzel-grid {
             display: grid;
             grid-template-columns: repeat(3, 100px);
             grid-template-rows: repeat(3, 100px);
