@@ -1,7 +1,7 @@
-const $grid = document.getElementById("puzzle-$grid");
-const $shuffleBtn = document.getElementById("$shuffleBtn");
-const $solveBtn = document.getElementById("$solveBtn");
-const $message = document.getElementById("win-$message");
+const $grid = document.getElementById("puzzle-grid");
+const $shuffleBtn = document.getElementById("shuffleBtn");
+const $solveBtn = document.getElementById("solveBtn");
+const $message = document.getElementById("win-message");
 
 $shuffleBtn.addEventListener("click", shuffleBoard);
 $solveBtn.addEventListener("click", solve);
