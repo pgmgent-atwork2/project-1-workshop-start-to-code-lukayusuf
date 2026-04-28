@@ -1,15 +1,15 @@
-const grid = document.getElementById("puzzle-grid");
-const shuffleBtn = document.getElementById("shuffleBtn");
-const solveBtn = document.getElementById("solveBtn");
-const message = document.getElementById("win-message");
+const $grid = document.getElementById("puzzle-$grid");
+const $shuffleBtn = document.getElementById("$shuffleBtn");
+const $solveBtn = document.getElementById("$solveBtn");
+const $message = document.getElementById("win-$message");
 
-shuffleBtn.addEventListener("click", shuffleBoard);
-solveBtn.addEventListener("click", solve);
+$shuffleBtn.addEventListener("click", shuffleBoard);
+$solveBtn.addEventListener("click", solve);
 
 let tiles = [0, 1, 2, 3, 4, 5, 6, 7, null];
 
 function drawBoard() {
-  grid.innerHTML = "";
+  $grid.innerHTML = "";
 
   tiles.forEach((tileValue, index) => {
     const div = document.createElement("div");
@@ -23,7 +23,7 @@ function drawBoard() {
       div.style.backgroundPosition = `${x}px ${y}px`;
       div.onclick = () => moveTile(index);
     }
-    grid.appendChild(div);
+    $grid.appendChild(div);
   });
 }
 
@@ -53,7 +53,7 @@ function moveTile(clickedIndex) {
 
 function shuffleBoard() {
     tiles.sort(() => Math.random() - 0.5);
-    message.textContent = "";
+    $message.textContent = "";
     drawBoard();
 }
 
@@ -71,9 +71,9 @@ function checkWin() {
     });
 
     if (isSolved) {
-        message.textContent = "Proficiat! Je hebt de puzzel opgelost.";
+        $message.textContent = "Proficiat! Je hebt de puzzel opgelost.";
     } else {
-        message.textContent = "";
+        $message.textContent = "";
     }
 }
 
