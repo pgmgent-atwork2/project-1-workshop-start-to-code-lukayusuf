@@ -11,97 +11,133 @@
 <body>
     <main>
         <h1>Tutorial</h1>
+        <div class="tutorial-layout">
+            <aside class="sidebar">
+                <h2>Inhoud</h2>
 
-        <section>
-            <h2>Stap 1: Installatie</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#step1">Stap 1: Installatie</a></li>
+                        <li><a href="#step2">Stap 2: HTML en CSS toevoegen</a></li>
+                        <li><a href="#step3">Stap 3: Spelbord tekenen</a></li>
+                        <li><a href="#step4">Stap 4: Puzzel weergeven met CSS</a></li>
+                        <li><a href="#step5">Stap 5: Tegels schuiven</a></li>
+                        <li><a href="#step6">Stap 6: Puzzel schudden</a></li>
+                        <li><a href="#step7">Stap 7: Oplosknop toevoegen</a></li>
+                        <li><a href="#step8">Stap 8: Knoppen stylen</a></li>
+                        <li><a href="#step9">Stap 9: Winst controleren</a></li>
+                    </ul>
+                </nav>
+            </aside>
 
-            <p>
-                Ga naar de officiële website van <a href="https://code.visualstudio.com/download">Visual Studio
-                    Code</a>. Op de startpagina zie je meteen een knop om de
-                versie te downloaden die geschikt is voor jouw besturingssysteem (Windows, macOS of Linux). Klik op de
-                knop om het installatiebestand te downloaden. Zodra je dit hebt gedaan kunnen we aan de slag met
-                programmeren!
-            </p>
+            <div class="tutorial-content">
+                <section id="step1">
+                    <h2>Stap 1: Installatie</h2>
 
-            <article>
-                <h3>1.1 Maak een nieuwe folder</h3>
-                <p>Maak een nieuwe map met de naam puzzel.</p>
-            </article>
+                    <p>
+                        Ga naar de officiële website van <a href="https://code.visualstudio.com/download">Visual Studio
+                            Code</a>. Op de startpagina zie je meteen een knop om de
+                        versie te downloaden die geschikt is voor jouw besturingssysteem (Windows, macOS of Linux). Klik
+                        op
+                        de
+                        knop om het installatiebestand te downloaden. Zodra je dit hebt gedaan kunnen we aan de slag met
+                        programmeren!
+                    </p>
 
-            <article>
-                <h3>1.2 Open VS Code</h3>
-                <p>Open Visual Studio Code en open de nieuwe folder via de navigatie bovenaan. Ga naar File> Open folder
-                    en ga opzoek naar de puzzel map en open deze.</p>
-                <img src="./assets/open-folder.png" alt="Open Folder" class="voorbeeld-afbeelding">
-            </article>
+                    <article>
+                        <h3>1.1 Maak een nieuwe folder</h3>
+                        <p>Maak een nieuwe map met de naam puzzel.</p>
+                    </article>
 
-            <article>
-                <h3>1.3 Folderstructuur</h3>
-                <p>
-                    Maak de bestanden main.css, app.js en index.html. Gebruik de knoppen bovenaan in de verkenner.
-                    Zorg dat de bestandsnamen exact kloppen! <img src="./assets/create-files.png" alt="Create Files" class="voorbeeld-afbeelding">
-                </p>
-                <p>
-                    Voeg ook een folder toe genaamd assets. Hierin zullen we de foto van de puzzle toevoegen.
-                    <img src="./assets/create-assets-folder.png" alt="Create Assets Folder" class="voorbeeld-afbeelding">
-                </p>
-            </article>
+                    <article>
+                        <h3>1.2 Open VS Code</h3>
+                        <p>Open Visual Studio Code en open de nieuwe folder via de navigatie bovenaan. Ga naar File>
+                            Open
+                            folder
+                            en ga opzoek naar de puzzel map en open deze.</p>
+                        <img src="./assets/open-folder.png" alt="Open Folder" class="voorbeeld-afbeelding">
+                    </article>
 
-            <article>
-                <h3>1.4 Installatie Live Server</h3>
-                <p>
-                    Ga naar extensions en installeer de Live Server-extensie in Visual Studio Code.
-                    <img src="./assets/install-live-server.png" alt="Install Live Server" class="voorbeeld-afbeelding">
-                </p>
-            </article>
+                    <article>
+                        <h3>1.3 Folderstructuur</h3>
+                        <p>
+                            Maak de bestanden main.css, app.js en index.html. Gebruik de knoppen bovenaan in de
+                            verkenner.
+                            Zorg dat de bestandsnamen exact kloppen! <img src="./assets/create-files.png"
+                                alt="Create Files" class="voorbeeld-afbeelding">
+                        </p>
+                        <p>
+                            Voeg ook een folder toe genaamd assets. Hierin zullen we de foto van de puzzle toevoegen.
+                            <img src="./assets/create-assets-folder.png" alt="Create Assets Folder"
+                                class="voorbeeld-afbeelding">
+                        </p>
+                    </article>
 
-            <article>
-                <h3>1.5 Opstarten van Live Server</h3>
-                <p>
-                    Start de Live Server door onderaan op Go Live te klikken. Dit opent een nieuw browservenster met je
-                    project.
-                    <img src="./assets/start-live-server.png" alt="Start Live Server" class="voorbeeld-afbeelding">
-                </p>
-            </article>
-        </section>
+                    <article>
+                        <h3>1.4 Installatie Live Server</h3>
+                        <p>
+                            Ga naar extensions en installeer de Live Server-extensie in Visual Studio Code.
+                            <img src="./assets/install-live-server.png" alt="Install Live Server"
+                                class="voorbeeld-afbeelding">
+                        </p>
+                    </article>
 
-        <section>
-            <h2>Stap 2: HTML en CSS toevoegen</h2>
+                    <article>
+                        <h3>1.5 Opstarten van Live Server</h3>
+                        <p>
+                            Start de Live Server door onderaan op Go Live te klikken. Dit opent een nieuw browservenster
+                            met
+                            je
+                            project.
+                            <img src="./assets/start-live-server.png" alt="Start Live Server"
+                                class="voorbeeld-afbeelding">
+                        </p>
+                    </article>
+                </section>
 
-            <p>
-                Open index.html en plak hierin de basisstructuur, of typ "!" en laat de code verschijnen.
-                Link het CSS-bestand in de head van je index.html.
-                Het Css bestand link je bovenaan in de head van het index.html bestand
-                Het JavaScript-bestand link je onderaan in je body.
-                <img src="./assets/link-files.png" alt="Link Files" class="voorbeeld-afbeelding">
+                <section id="step2">
+                    <h2>Stap 2: HTML en CSS toevoegen</h2>
 
-            <pre><code><link href="main.css" rel="stylesheet"></code></pre>
-            <pre><code><script src="app.js"></script></code></pre>
-            </p>
+                    <p>
+                        Open index.html en plak hierin de basisstructuur, of typ "!" en laat de code verschijnen.
+                        Link het CSS-bestand in de head van je index.html.
+                        Het Css bestand link je bovenaan in de head van het index.html bestand
+                        Het JavaScript-bestand link je onderaan in je body.
+                        <img src="./assets/link-files.png" alt="Link Files" class="voorbeeld-afbeelding">
 
-            <p>
-                Geef in de head van index.html tussen de title tags waar voorlopig "Document" staat een gepaste titel,
-                zoals Puzzel.
-                <img src="./assets/set-title.png" alt="Set Title" class="voorbeeld-afbeelding">
-            </p>
+                    <pre><code><link href="main.css" rel="stylesheet"></code></pre>
+                    <pre><code><script src="app.js"></script></code></pre>
+                    </p>
 
-            <p>
-                Nu beginnn we met het echte coderen tussen de body tag geven we onze puzzel eerst even en titel en maken
-                we een div aan waarin onze puzzel zal getekend worden
-                <img src="./assets/teken-bord.png" alt="Teken Bord" class="voorbeeld-afbeelding">
-            </p>
+                    <p>
+                        Geef in de head van index.html tussen de title tags waar voorlopig "Document" staat een gepaste
+                        titel,
+                        zoals Puzzel.
+                        <img src="./assets/set-title.png" alt="Set Title" class="voorbeeld-afbeelding">
+                    </p>
 
-            <pre><code>&lt;h1&gt;Puzzel&lt;/h1&gt;
+                    <p>
+                        Nu beginnn we met het echte coderen tussen de body tag geven we onze puzzel eerst even en titel
+                        en
+                        maken
+                        we een div aan waarin onze puzzel zal getekend worden
+                        <img src="./assets/teken-bord.png" alt="Teken Bord" class="voorbeeld-afbeelding">
+                    </p>
+
+                    <pre><code>&lt;h1&gt;Puzzel&lt;/h1&gt;
 &lt;div id="puzzel-grid"&gt;&lt;/div&gt;</code></pre>
 
-            <p>CSS meegeven voor body en title:</p>
+                    <p>CSS meegeven voor body en title:</p>
 
-            <p>met CSS kunnen we de stijl en layout van onze website of puzzel aanpassen, op dit moment hebben we nog
-                niet veel om te stileren maar je mag alvast even deze code plakken in het main.css bestand dit zorgt
-                voor een goede
-                basisstructuur zodat we proper te werk kunnen gaan.</p>
+                    <p>met CSS kunnen we de stijl en layout van onze website of puzzel aanpassen, op dit moment hebben
+                        we
+                        nog
+                        niet veel om te stileren maar je mag alvast even deze code plakken in het main.css bestand dit
+                        zorgt
+                        voor een goede
+                        basisstructuur zodat we proper te werk kunnen gaan.</p>
 
-            <pre><code>body {
+                    <pre><code>body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f0f4f8;
     display: flex;
@@ -118,102 +154,109 @@ h1 {
     margin-bottom: 5px;
 }</code></pre>
 
-            <p></p>
-        </section>
+                    <p></p>
+                </section>
 
-        <section>
-            <h2>Stap 3: Het spelbord tekenen met JavaScript</h2>
-        
-            <p>
-                Ga naar het bestand <code>app.js</code>. Hierin schrijven we de functionaliteiten van onze puzzel.
-                We beginnen met het ophalen van onze grid en het aanmaken van de array die de puzzeltegels voorstelt.
-            </p>
-        
-            <pre><code>const grid = document.getElementById("puzzel-grid");
+                <section id="step3">
+                    <h2>Stap 3: Het spelbord tekenen met JavaScript</h2>
+
+                    <p>
+                        Ga naar het bestand <code>app.js</code>. Hierin schrijven we de functionaliteiten van onze
+                        puzzel.
+                        We beginnen met het ophalen van onze grid en het aanmaken van de array die de puzzeltegels
+                        voorstelt.
+                    </p>
+
+                    <pre><code>const grid = document.getElementById("puzzel-grid");
         let tegels = [0, 1, 2, 3, 4, 5, 6, 7, null];</code></pre>
-        
-            <p>
-                Onze puzzel bestaat uit <strong>9 posities</strong>: 8 zichtbare puzzeltegels en 1 leeg vakje.
-                Dat lege vakje stellen we in de array voor met <code>null</code>.
-            </p>
-        
-            <p>
-                We maken nu de functie <code>tekenBord()</code>. Deze functie bouwt het spelbord telkens opnieuw op
-                op basis van de huidige volgorde van de tegels.
-            </p>
-        
-            <pre><code>function tekenBord() {
+
+                    <p>
+                        Onze puzzel bestaat uit <strong>9 posities</strong>: 8 zichtbare puzzeltegels en 1 leeg vakje.
+                        Dat lege vakje stellen we in de array voor met <code>null</code>.
+                    </p>
+
+                    <p>
+                        We maken nu de functie <code>tekenBord()</code>. Deze functie bouwt het spelbord telkens opnieuw
+                        op
+                        op basis van de huidige volgorde van de tegels.
+                    </p>
+
+                    <pre><code>function tekenBord() {
             grid.innerHTML = ""; // Maak het bord leeg voor een nieuwe opbouw</code></pre>
-        
-            <p>
-                Met <code>forEach()</code> lopen we door alle 9 posities in de array, dus ook door het lege vakje.
-            </p>
-        
-            <pre><code>    tegels.forEach((tegelWaarde, huidigePositie) =&gt; {</code></pre>
-        
-            <p>
-                Voor elke positie maken we een nieuwe <code>div</code> aan. Die krijgt de klasse <code>tegel</code>,
-                zodat we ze straks met CSS kunnen vormgeven.
-            </p>
-        
-            <pre><code>        const div = document.createElement("div");
+
+                    <p>
+                        Met <code>forEach()</code> lopen we door alle 9 posities in de array, dus ook door het lege
+                        vakje.
+                    </p>
+
+                    <pre><code>    tegels.forEach((tegelWaarde, huidigePositie) =&gt; {</code></pre>
+
+                    <p>
+                        Voor elke positie maken we een nieuwe <code>div</code> aan. Die krijgt de klasse
+                        <code>tegel</code>,
+                        zodat we ze straks met CSS kunnen vormgeven.
+                    </p>
+
+                    <pre><code>        const div = document.createElement("div");
                 div.classList.add("tegel");</code></pre>
-        
-            <p>
-                Daarna controleren we of de tegelwaarde gelijk is aan <code>null</code>.
-                Is dat zo? Dan gaat het om het lege vakje.
-            </p>
-        
-            <pre><code>        if (tegelWaarde === null) {
+
+                    <p>
+                        Daarna controleren we of de tegelwaarde gelijk is aan <code>null</code>.
+                        Is dat zo? Dan gaat het om het lege vakje.
+                    </p>
+
+                    <pre><code>        if (tegelWaarde === null) {
                     div.classList.add("leeg");
                 } else {</code></pre>
-        
-            <p>
-                Is de tegel niet leeg? Dan bepalen we welk deel van de afbeelding zichtbaar moet zijn.
-            </p>
-        
-            <pre><code>            const x = (tegelWaarde % 3) * -100;
+
+                    <p>
+                        Is de tegel niet leeg? Dan bepalen we welk deel van de afbeelding zichtbaar moet zijn.
+                    </p>
+
+                    <pre><code>            const x = (tegelWaarde % 3) * -100;
                     const y = Math.floor(tegelWaarde / 3) * -100;
         
                     div.style.backgroundPosition = `${x}px ${y}px`;</code></pre>
-        
-            <p>
-                De x-waarde verschuift de afbeelding horizontaal. De y-waarde verschuift de afbeelding verticaal.
-                Zo toont elke tegel een ander stukje van dezelfde afbeelding.
-            </p>
-        
-            <p>
-                We voegen ook een klik-event toe aan de zichtbare tegels. De functie
-                <code>probeerSchuiven()</code> maken we later.
-            </p>
-        
-            <pre><code>            div.onclick = () =&gt; probeerSchuiven(huidigePositie);
+
+                    <p>
+                        De x-waarde verschuift de afbeelding horizontaal. De y-waarde verschuift de afbeelding
+                        verticaal.
+                        Zo toont elke tegel een ander stukje van dezelfde afbeelding.
+                    </p>
+
+                    <p>
+                        We voegen ook een klik-event toe aan de zichtbare tegels. De functie
+                        <code>probeerSchuiven()</code> maken we later.
+                    </p>
+
+                    <pre><code>            div.onclick = () =&gt; probeerSchuiven(huidigePositie);
                 }</code></pre>
-        
-            <p>
-                Tot slot voegen we elke tegel toe aan het grid.
-            </p>
-        
-            <pre><code>        grid.appendChild(div);
+
+                    <p>
+                        Tot slot voegen we elke tegel toe aan het grid.
+                    </p>
+
+                    <pre><code>        grid.appendChild(div);
             });
         }</code></pre>
-        
-            <p>
-                Onderaan in <code>app.js</code> roepen we de functie aan, zodat het bord effectief wordt opgebouwd.
-            </p>
-        
-            <pre><code>tekenBord();</code></pre>
-        </section>
-        
-        <section>
-            <h2>Stap 4: De puzzel weergeven met CSS</h2>
-        
-            <p>
-                Onze JavaScript maakt nu tegels aan, maar zonder CSS zien we nog geen duidelijk puzzelbord.
-                Daarom geven we het grid, de tegels en het lege vakje nu vorm.
-            </p>
-        
-            <pre><code>#puzzel-grid {
+
+                    <p>
+                        Onderaan in <code>app.js</code> roepen we de functie aan, zodat het bord effectief wordt
+                        opgebouwd.
+                    </p>
+
+                    <pre><code>tekenBord();</code></pre>
+                </section>
+
+                <section id="step4">
+                    <h2>Stap 4: De puzzel weergeven met CSS</h2>
+
+                    <p>
+                        Onze JavaScript maakt nu tegels aan, maar zonder CSS zien we nog geen duidelijk puzzelbord.
+                        Daarom geven we het grid, de tegels en het lege vakje nu vorm.
+                    </p>
+
+                    <pre><code>#puzzel-grid {
             display: grid;
             grid-template-columns: repeat(3, 100px);
             grid-template-rows: repeat(3, 100px);
@@ -221,249 +264,262 @@ h1 {
             padding: 5px;
             background-color: #333;
         }</code></pre>
-        
-            <p>
-                Met <code>display: grid</code> maken we van onze container een raster.
-                We maken 3 kolommen en 3 rijen van telkens 100px. Zo ontstaat een puzzelbord van 300px op 300px.
-            </p>
-        
-            <pre><code>.tegel {
+
+                    <p>
+                        Met <code>display: grid</code> maken we van onze container een raster.
+                        We maken 3 kolommen en 3 rijen van telkens 100px. Zo ontstaat een puzzelbord van 300px op 300px.
+                    </p>
+
+                    <pre><code>.tegel {
             width: 100px;
             height: 100px;
             background-image: url("assets/puzzle.jpeg");
             background-size: 300px 300px;
             cursor: pointer;
         }</code></pre>
-        
-            <p>
-                Elke tegel is 100px breed en 100px hoog. De volledige afbeelding zetten we op 300px bij 300px,
-                omdat ons bord bestaat uit 3 tegels naast elkaar en 3 tegels onder elkaar.
-            </p>
-        
-            <p>
-                In JavaScript gebruiken we <code>backgroundPosition</code> om de achtergrond per tegel te verschuiven.
-                Daardoor toont elke tegel een ander deel van dezelfde afbeelding.
-            </p>
-        
-            <p>
-                Gebruik best een vierkante afbeelding. Zet die afbeelding in de map <code>assets</code> en controleer
-                of de bestandsnaam exact overeenkomt met de naam in je CSS.
-            </p>
-        
-            <pre><code>.leeg {
+
+                    <p>
+                        Elke tegel is 100px breed en 100px hoog. De volledige afbeelding zetten we op 300px bij 300px,
+                        omdat ons bord bestaat uit 3 tegels naast elkaar en 3 tegels onder elkaar.
+                    </p>
+
+                    <p>
+                        In JavaScript gebruiken we <code>backgroundPosition</code> om de achtergrond per tegel te
+                        verschuiven.
+                        Daardoor toont elke tegel een ander deel van dezelfde afbeelding.
+                    </p>
+
+                    <p>
+                        Gebruik best een vierkante afbeelding. Zet die afbeelding in de map <code>assets</code> en
+                        controleer
+                        of de bestandsnaam exact overeenkomt met de naam in je CSS.
+                    </p>
+
+                    <pre><code>.leeg {
             background-color: #d1d9e0;
             background-image: none;
             cursor: default;
         }</code></pre>
-        
-            <p>
-                De klasse <code>leeg</code> wordt toegevoegd aan het vakje met de waarde <code>null</code>.
-                Dit vakje krijgt geen afbeelding, omdat het de open ruimte is waarin tegels kunnen schuiven.
-            </p>
-        
-            <pre><code>.tegel:not(.leeg):hover {
+
+                    <p>
+                        De klasse <code>leeg</code> wordt toegevoegd aan het vakje met de waarde <code>null</code>.
+                        Dit vakje krijgt geen afbeelding, omdat het de open ruimte is waarin tegels kunnen schuiven.
+                    </p>
+
+                    <pre><code>.tegel:not(.leeg):hover {
             transform: scale(1.03);
             filter: brightness(1.1);
         }</code></pre>
-        
-            <p>
-                Met <code>:not(.leeg)</code> zorgen we ervoor dat het hover-effect alleen geldt voor de zichtbare tegels
-                en niet voor het lege vakje.
-            </p>
-        </section>
-        
-        <section>
-            <h2>Stap 5: Controleren of de geklikte tegel mag schuiven</h2>
-        
-            <p>
-                Nu maken we de functie <code>probeerSchuiven()</code>. Deze functie controleert of een aangeklikte tegel
-                mag verschuiven. Een tegel mag enkel verschuiven als die direct naast het lege vakje staat:
-                links, rechts, boven of onder.
-            </p>
-        
-            <pre><code>function probeerSchuiven(gekliktePositie) {</code></pre>
-        
-            <p>
-                Eerst zoeken we de positie van het lege vakje. In onze array wordt het lege vakje voorgesteld met
-                <code>null</code>.
-            </p>
-        
-            <pre><code>    const legePositie = tegels.indexOf(null);</code></pre>
-        
-            <p>
-                Daarna berekenen we de rij en kolom van de aangeklikte tegel.
-            </p>
-        
-            <pre><code>    const geklikteRij = Math.floor(gekliktePositie / 3);
+
+                    <p>
+                        Met <code>:not(.leeg)</code> zorgen we ervoor dat het hover-effect alleen geldt voor de
+                        zichtbare
+                        tegels
+                        en niet voor het lege vakje.
+                    </p>
+                </section>
+
+                <section id="step5">
+                    <h2>Stap 5: Controleren of de geklikte tegel mag schuiven</h2>
+
+                    <p>
+                        Nu maken we de functie <code>probeerSchuiven()</code>. Deze functie controleert of een
+                        aangeklikte
+                        tegel
+                        mag verschuiven. Een tegel mag enkel verschuiven als die direct naast het lege vakje staat:
+                        links, rechts, boven of onder.
+                    </p>
+
+                    <pre><code>function probeerSchuiven(gekliktePositie) {</code></pre>
+
+                    <p>
+                        Eerst zoeken we de positie van het lege vakje. In onze array wordt het lege vakje voorgesteld
+                        met
+                        <code>null</code>.
+                    </p>
+
+                    <pre><code>    const legePositie = tegels.indexOf(null);</code></pre>
+
+                    <p>
+                        Daarna berekenen we de rij en kolom van de aangeklikte tegel.
+                    </p>
+
+                    <pre><code>    const geklikteRij = Math.floor(gekliktePositie / 3);
             const geklikteKolom = gekliktePositie % 3;</code></pre>
-        
-            <p>
-                We doen hetzelfde voor het lege vakje.
-            </p>
-        
-            <pre><code>    const legeRij = Math.floor(legePositie / 3);
+
+                    <p>
+                        We doen hetzelfde voor het lege vakje.
+                    </p>
+
+                    <pre><code>    const legeRij = Math.floor(legePositie / 3);
             const legeKolom = legePositie % 3;</code></pre>
-        
-            <p>
-                Nu controleren we of de aangeklikte tegel direct naast het lege vakje staat.
-                Dat kan horizontaal zijn, dus op dezelfde rij, of verticaal, dus in dezelfde kolom.
-            </p>
-        
-            <pre><code>    const isBuur =
+
+                    <p>
+                        Nu controleren we of de aangeklikte tegel direct naast het lege vakje staat.
+                        Dat kan horizontaal zijn, dus op dezelfde rij, of verticaal, dus in dezelfde kolom.
+                    </p>
+
+                    <pre><code>    const isBuur =
                 (geklikteRij === legeRij &amp;&amp; Math.abs(geklikteKolom - legeKolom) === 1) ||
                 (geklikteKolom === legeKolom &amp;&amp; Math.abs(geklikteRij - legeRij) === 1);</code></pre>
-        
-            <p>
-                Alleen als <code>isBuur</code> gelijk is aan <code>true</code>, mogen we de tegel verschuiven.
-            </p>
-        
-            <pre><code>    if (isBuur) {</code></pre>
-        
-            <p>
-                We wisselen de aangeklikte tegel en het lege vakje van plaats in de array.
-            </p>
-        
-            <pre><code>        const tijdelijk = tegels[gekliktePositie];
+
+                    <p>
+                        Alleen als <code>isBuur</code> gelijk is aan <code>true</code>, mogen we de tegel verschuiven.
+                    </p>
+
+                    <pre><code>    if (isBuur) {</code></pre>
+
+                    <p>
+                        We wisselen de aangeklikte tegel en het lege vakje van plaats in de array.
+                    </p>
+
+                    <pre><code>        const tijdelijk = tegels[gekliktePositie];
                 tegels[gekliktePositie] = tegels[legePositie];
                 tegels[legePositie] = tijdelijk;</code></pre>
-        
-            <p>
-                Daarna tekenen we het bord opnieuw, zodat de wijziging ook zichtbaar wordt op het scherm.
-            </p>
-        
-            <pre><code>        tekenBord();</code></pre>
-        
-            <p>
-                Later voegen we hier ook nog een controle toe om te kijken of de puzzel opgelost is.
-            </p>
-        
-            <pre><code>        checkWinst();</code></pre>
-        
-            <p>
-                Tot slot sluiten we de <code>if</code> en de functie af.
-            </p>
-        
-            <pre><code>    }
+
+                    <p>
+                        Daarna tekenen we het bord opnieuw, zodat de wijziging ook zichtbaar wordt op het scherm.
+                    </p>
+
+                    <pre><code>        tekenBord();</code></pre>
+
+                    <p>
+                        Later voegen we hier ook nog een controle toe om te kijken of de puzzel opgelost is.
+                    </p>
+
+                    <pre><code>        checkWinst();</code></pre>
+
+                    <p>
+                        Tot slot sluiten we de <code>if</code> en de functie af.
+                    </p>
+
+                    <pre><code>    }
         }</code></pre>
-        </section>
+                </section>
 
-        <section>
-            <h2>Stap 6: De puzzel schudden</h2>
-        
-            <p>
-                Om er een echt spel van te maken, moeten we de tegels willekeurig door elkaar plaatsen.
-                Dit noemen we het “schudden” van de puzzel.
-            </p>
-        
-            <p>
-                We beginnen met het toevoegen van een knop in onze HTML. Wanneer we op deze knop klikken,
-                wordt de puzzel door elkaar gehusseld.
-            </p>
-        
-            <p>Plaats dit onder je puzzelbord in <code>index.html</code>:</p>
-        
-            <pre><code>&lt;button id="schudKnop"&gt;Schudden&lt;/button&gt;</code></pre>
-        
-            <p>
-                Nu moeten we deze knop ook ophalen in JavaScript. Dit doen we bovenaan in ons bestand,
-                samen met onze andere variabelen, zodat onze code overzichtelijk en gestructureerd blijft.
-            </p>
-        
-            <pre><code>const schudKnop = document.getElementById("schudKnop");</code></pre>
-        
-            <p>
-                Met <code>addEventListener</code> zorgen we ervoor dat er een functie wordt uitgevoerd
-                wanneer we op de knop klikken.
-            </p>
-        
-            <pre><code>schudKnop.addEventListener("click", schudPuzzel);</code></pre>
-        
-            <p>
-                Wanneer we op de knop klikken, wordt de functie <code>schudPuzzel()</code> uitgevoerd.
-                Die functie maken we nu.
-            </p>
-        
-            <pre><code>function schudPuzzel() {</code></pre>
-        
-            <p>
-                We gebruiken <code>sort()</code> in combinatie met <code>Math.random()</code>
-                om de volgorde van de tegels willekeurig te maken.
-            </p>
-        
-            <pre><code>    tegels.sort(() =&gt; Math.random() - 0.5);</code></pre>
-        
-            <p>
-                <code>Math.random()</code> geeft telkens een willekeurig getal terug tussen 0 en 1.
-                Door hier <code>- 0.5</code> van te doen, krijgen we zowel positieve als negatieve waarden.
-            </p>
-        
-            <p>
-                De <code>sort()</code>-functie gebruikt deze waarden om te bepalen in welke volgorde de elementen
-                moeten komen. Omdat deze waarde telkens anders is, wordt de array bij elke klik op een andere manier
-                door elkaar gezet.
-            </p>
-        
-            <p>
-                Daarna tekenen we het bord opnieuw, zodat de nieuwe volgorde zichtbaar wordt.
-            </p>
-        
-            <pre><code>    tekenBord();</code></pre>
-        
-            <pre><code>}</code></pre>
-        
-            <p>
-                Wanneer je nu op de knop klikt, wordt de puzzel telkens opnieuw door elkaar gehaald.
-            </p>
-        </section>
+                <section id="step6">
+                    <h2>Stap 6: De puzzel schudden</h2>
 
-        <section>
-            <h2>Stap 7: Een oplosknop toevoegen</h2>
-        
-            <p>
-                Naast de schudknop voegen we ook een knop toe waarmee we de puzzel opnieuw in de juiste volgorde kunnen zetten.
-                Deze knop noemen we de oplosknop.
-            </p>
-        
-            <p>Plaats deze knop onder de schudknop in <code>index.html</code>:</p>
-        
-            <pre><code>&lt;button id="oplosKnop"&gt;Oplossen&lt;/button&gt;</code></pre>
-        
-            <p>
-                Daarna halen we deze knop bovenaan in ons <code>app.js</code>-bestand op, samen met onze andere elementen.
-            </p>
-        
-            <pre><code>const oplosKnop = document.getElementById("oplosKnop");</code></pre>
-        
-            <p>
-                Met <code>addEventListener</code> zorgen we ervoor dat de functie <code>losPuzzelOp()</code>
-                wordt uitgevoerd wanneer we op de knop klikken.
-            </p>
-        
-            <pre><code>oplosKnop.addEventListener("click", losPuzzelOp);</code></pre>
-        
-            <p>
-                Nu maken we de functie <code>losPuzzelOp()</code>. Deze functie zet de array opnieuw in de juiste volgorde.
-            </p>
-        
-            <pre><code>function losPuzzelOp() {
+                    <p>
+                        Om er een echt spel van te maken, moeten we de tegels willekeurig door elkaar plaatsen.
+                        Dit noemen we het “schudden” van de puzzel.
+                    </p>
+
+                    <p>
+                        We beginnen met het toevoegen van een knop in onze HTML. Wanneer we op deze knop klikken,
+                        wordt de puzzel door elkaar gehusseld.
+                    </p>
+
+                    <p>Plaats dit onder je puzzelbord in <code>index.html</code>:</p>
+
+                    <pre><code>&lt;button id="schudKnop"&gt;Schudden&lt;/button&gt;</code></pre>
+
+                    <p>
+                        Nu moeten we deze knop ook ophalen in JavaScript. Dit doen we bovenaan in ons bestand,
+                        samen met onze andere variabelen, zodat onze code overzichtelijk en gestructureerd blijft.
+                    </p>
+
+                    <pre><code>const schudKnop = document.getElementById("schudKnop");</code></pre>
+
+                    <p>
+                        Met <code>addEventListener</code> zorgen we ervoor dat er een functie wordt uitgevoerd
+                        wanneer we op de knop klikken.
+                    </p>
+
+                    <pre><code>schudKnop.addEventListener("click", schudPuzzel);</code></pre>
+
+                    <p>
+                        Wanneer we op de knop klikken, wordt de functie <code>schudPuzzel()</code> uitgevoerd.
+                        Die functie maken we nu.
+                    </p>
+
+                    <pre><code>function schudPuzzel() {</code></pre>
+
+                    <p>
+                        We gebruiken <code>sort()</code> in combinatie met <code>Math.random()</code>
+                        om de volgorde van de tegels willekeurig te maken.
+                    </p>
+
+                    <pre><code>    tegels.sort(() =&gt; Math.random() - 0.5);</code></pre>
+
+                    <p>
+                        <code>Math.random()</code> geeft telkens een willekeurig getal terug tussen 0 en 1.
+                        Door hier <code>- 0.5</code> van te doen, krijgen we zowel positieve als negatieve waarden.
+                    </p>
+
+                    <p>
+                        De <code>sort()</code>-functie gebruikt deze waarden om te bepalen in welke volgorde de
+                        elementen
+                        moeten komen. Omdat deze waarde telkens anders is, wordt de array bij elke klik op een andere
+                        manier
+                        door elkaar gezet.
+                    </p>
+
+                    <p>
+                        Daarna tekenen we het bord opnieuw, zodat de nieuwe volgorde zichtbaar wordt.
+                    </p>
+
+                    <pre><code>    tekenBord();</code></pre>
+
+                    <pre><code>}</code></pre>
+
+                    <p>
+                        Wanneer je nu op de knop klikt, wordt de puzzel telkens opnieuw door elkaar gehaald.
+                    </p>
+                </section>
+
+                <section id="step7">
+                    <h2>Stap 7: Een oplosknop toevoegen</h2>
+
+                    <p>
+                        Naast de schudknop voegen we ook een knop toe waarmee we de puzzel opnieuw in de juiste volgorde
+                        kunnen zetten.
+                        Deze knop noemen we de oplosknop.
+                    </p>
+
+                    <p>Plaats deze knop onder de schudknop in <code>index.html</code>:</p>
+
+                    <pre><code>&lt;button id="oplosKnop"&gt;Oplossen&lt;/button&gt;</code></pre>
+
+                    <p>
+                        Daarna halen we deze knop bovenaan in ons <code>app.js</code>-bestand op, samen met onze andere
+                        elementen.
+                    </p>
+
+                    <pre><code>const oplosKnop = document.getElementById("oplosKnop");</code></pre>
+
+                    <p>
+                        Met <code>addEventListener</code> zorgen we ervoor dat de functie <code>losPuzzelOp()</code>
+                        wordt uitgevoerd wanneer we op de knop klikken.
+                    </p>
+
+                    <pre><code>oplosKnop.addEventListener("click", losPuzzelOp);</code></pre>
+
+                    <p>
+                        Nu maken we de functie <code>losPuzzelOp()</code>. Deze functie zet de array opnieuw in de
+                        juiste
+                        volgorde.
+                    </p>
+
+                    <pre><code>function losPuzzelOp() {
             tegels = [0, 1, 2, 3, 4, 5, 6, 7, null];
             tekenBord();
         }</code></pre>
-        
-            <p>
-                Wanneer je nu op de knop klikt, wordt de puzzel opnieuw opgelost weergegeven.
-            </p>
-        </section>
-        
-        <section>
-            <h2>Stap 8: De knoppen stylen</h2>
-        
-            <p>
-                Onze knoppen werken nu, maar ze hebben nog geen eigen stijl. Daarom voegen we in
-                <code>main.css</code> wat extra CSS toe.
-            </p>
-        
-            <pre><code>button {
+
+                    <p>
+                        Wanneer je nu op de knop klikt, wordt de puzzel opnieuw opgelost weergegeven.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 id="step8">Stap 8: De knoppen stylen</h2>
+
+                    <p>
+                        Onze knoppen werken nu, maar ze hebben nog geen eigen stijl. Daarom voegen we in
+                        <code>main.css</code> wat extra CSS toe.
+                    </p>
+
+                    <pre><code>button {
             padding: 12px 24px;
             margin-top: 20px;
             background-color: #4a90e2;
@@ -474,130 +530,135 @@ h1 {
             cursor: pointer;
             transition: background 0.3s, transform 0.1s;
         }</code></pre>
-        
-            <p>
-                Met <code>padding</code> maken we de knop groter vanbinnen.
-                Met <code>margin-top</code> creëren we ruimte tussen de puzzel en de knoppen.
-            </p>
-        
-            <p>
-                <code>background-color</code> bepaalt de kleur van de knop en <code>color</code>
-                bepaalt de kleur van de tekst. Met <code>border: none</code> halen we de standaardrand weg.
-            </p>
-        
-            <p>
-                Door <code>border-radius</code> krijgen de knoppen afgeronde hoeken.
-                <code>cursor: pointer</code> zorgt ervoor dat je muis verandert wanneer je over de knop gaat.
-            </p>
-        
-            <pre><code>button:hover {
+
+                    <p>
+                        Met <code>padding</code> maken we de knop groter vanbinnen.
+                        Met <code>margin-top</code> creëren we ruimte tussen de puzzel en de knoppen.
+                    </p>
+
+                    <p>
+                        <code>background-color</code> bepaalt de kleur van de knop en <code>color</code>
+                        bepaalt de kleur van de tekst. Met <code>border: none</code> halen we de standaardrand weg.
+                    </p>
+
+                    <p>
+                        Door <code>border-radius</code> krijgen de knoppen afgeronde hoeken.
+                        <code>cursor: pointer</code> zorgt ervoor dat je muis verandert wanneer je over de knop gaat.
+                    </p>
+
+                    <pre><code>button:hover {
             background-color: #357abd;
         }</code></pre>
-        
-            <p>
-                Met <code>:hover</code> geven we de knop een andere stijl wanneer je er met je muis over beweegt.
-            </p>
-        </section>
-        
-        <section>
-            <h2>Stap 9: Controleren of de puzzel opgelost is</h2>
-        
-            <p>
-                Als laatste willen we controleren of de puzzel opnieuw in de juiste volgorde staat.
-                Wanneer dat zo is, tonen we een bericht op het scherm.
-            </p>
-        
-            <p>
-                We voegen eerst een leeg tekstvak toe in <code>index.html</code>.
-                Hierin kunnen we later de winmelding tonen.
-            </p>
-        
-            <pre><code>&lt;p id="win-bericht"&gt;&lt;/p&gt;</code></pre>
-        
-            <p>
-                Daarna halen we dit element bovenaan in <code>app.js</code> op, samen met onze andere elementen.
-            </p>
-        
-            <pre><code>const berichtElement = document.getElementById("win-bericht");</code></pre>
-        
-            <p>
-                Nu maken we de functie <code>checkWinst()</code>. Deze functie controleert of elke tegel opnieuw
-                op de juiste positie staat.
-            </p>
-        
-            <pre><code>function checkWinst() {</code></pre>
-        
-            <p>
-                We gebruiken <code>every()</code>. Deze methode controleert of elk element in de array aan een
-                bepaalde voorwaarde voldoet.
-            </p>
-        
-            <pre><code>    const gewonnen = tegels.every((tegel, index) =&gt; {</code></pre>
-        
-            <p>
-                De laatste positie is een uitzondering. Daar moet het lege vakje staan, dus daar verwachten we
-                <code>null</code>.
-            </p>
-        
-            <pre><code>        if (index === tegels.length - 1) {
+
+                    <p>
+                        Met <code>:hover</code> geven we de knop een andere stijl wanneer je er met je muis over
+                        beweegt.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 id="step9">Stap 9: Controleren of de puzzel opgelost is</h2>
+
+                    <p>
+                        Als laatste willen we controleren of de puzzel opnieuw in de juiste volgorde staat.
+                        Wanneer dat zo is, tonen we een bericht op het scherm.
+                    </p>
+
+                    <p>
+                        We voegen eerst een leeg tekstvak toe in <code>index.html</code>.
+                        Hierin kunnen we later de winmelding tonen.
+                    </p>
+
+                    <pre><code>&lt;p id="win-bericht"&gt;&lt;/p&gt;</code></pre>
+
+                    <p>
+                        Daarna halen we dit element bovenaan in <code>app.js</code> op, samen met onze andere elementen.
+                    </p>
+
+                    <pre><code>const berichtElement = document.getElementById("win-bericht");</code></pre>
+
+                    <p>
+                        Nu maken we de functie <code>checkWinst()</code>. Deze functie controleert of elke tegel opnieuw
+                        op de juiste positie staat.
+                    </p>
+
+                    <pre><code>function checkWinst() {</code></pre>
+
+                    <p>
+                        We gebruiken <code>every()</code>. Deze methode controleert of elk element in de array aan een
+                        bepaalde voorwaarde voldoet.
+                    </p>
+
+                    <pre><code>    const gewonnen = tegels.every((tegel, index) =&gt; {</code></pre>
+
+                    <p>
+                        De laatste positie is een uitzondering. Daar moet het lege vakje staan, dus daar verwachten we
+                        <code>null</code>.
+                    </p>
+
+                    <pre><code>        if (index === tegels.length - 1) {
                     return tegel === null;
                 }</code></pre>
-        
-            <p>
-                Voor alle andere posities controleren we of de waarde van de tegel gelijk is aan de index.
-                Zo weten we of elke tegel opnieuw op de juiste plaats staat.
-            </p>
-        
-            <pre><code>        return tegel === index;
+
+                    <p>
+                        Voor alle andere posities controleren we of de waarde van de tegel gelijk is aan de index.
+                        Zo weten we of elke tegel opnieuw op de juiste plaats staat.
+                    </p>
+
+                    <pre><code>        return tegel === index;
             });</code></pre>
-        
-            <p>
-                Als alle controles kloppen, is <code>gewonnen</code> gelijk aan <code>true</code>.
-                Dan tonen we een winmelding.
-            </p>
-        
-            <pre><code>    if (gewonnen) {
+
+                    <p>
+                        Als alle controles kloppen, is <code>gewonnen</code> gelijk aan <code>true</code>.
+                        Dan tonen we een winmelding.
+                    </p>
+
+                    <pre><code>    if (gewonnen) {
                 berichtElement.textContent = "Proficiat! Je hebt de puzzel opgelost.";
             } else {
                 berichtElement.textContent = "";
             }
         }</code></pre>
-        
-            <p>
-                De functie <code>checkWinst()</code> bestaat nu, maar ze wordt nog nergens uitgevoerd.
-                Daarom voegen we ze toe aan de functie <code>probeerSchuiven()</code>, net nadat het bord opnieuw getekend wordt.
-            </p>
-        
-            <pre><code>tekenBord();
+
+                    <p>
+                        De functie <code>checkWinst()</code> bestaat nu, maar ze wordt nog nergens uitgevoerd.
+                        Daarom voegen we ze toe aan de functie <code>probeerSchuiven()</code>, net nadat het bord
+                        opnieuw
+                        getekend wordt.
+                    </p>
+
+                    <pre><code>tekenBord();
         checkWinst();</code></pre>
-        
-            <p>
-                Zo wordt na elke geldige zet gecontroleerd of de puzzel opgelost is.
-            </p>
-        
-            <p>
-                We wissen ook de winmelding wanneer de puzzel opnieuw geschud wordt.
-                Voeg daarom deze regel toe aan <code>schudPuzzel()</code>:
-            </p>
-        
-            <pre><code>berichtElement.textContent = "";</code></pre>
-        
-            <p>
-                De functie <code>schudPuzzel()</code> ziet er dan zo uit:
-            </p>
-        
-            <pre><code>function schudPuzzel() {
+
+                    <p>
+                        Zo wordt na elke geldige zet gecontroleerd of de puzzel opgelost is.
+                    </p>
+
+                    <p>
+                        We wissen ook de winmelding wanneer de puzzel opnieuw geschud wordt.
+                        Voeg daarom deze regel toe aan <code>schudPuzzel()</code>:
+                    </p>
+
+                    <pre><code>berichtElement.textContent = "";</code></pre>
+
+                    <p>
+                        De functie <code>schudPuzzel()</code> ziet er dan zo uit:
+                    </p>
+
+                    <pre><code>function schudPuzzel() {
             tegels.sort(() =&gt; Math.random() - 0.5);
             berichtElement.textContent = "";
             tekenBord();
         }</code></pre>
-        
-            <p>
-                Je hebt nu een volledig werkende schuifpuzzel gebouwd.
-                De puzzel kan getekend worden, tegels kunnen verschoven worden, de puzzel kan geschud worden
-                en er verschijnt een melding wanneer de puzzel opgelost is.
-            </p>
-        </section>
+
+                    <p>
+                        Je hebt nu een volledig werkende schuifpuzzel gebouwd.
+                        De puzzel kan getekend worden, tegels kunnen verschoven worden, de puzzel kan geschud worden
+                        en er verschijnt een melding wanneer de puzzel opgelost is.
+                    </p>
+                </section>
+            </div>
+        </div>
     </main>
 </body>
 
