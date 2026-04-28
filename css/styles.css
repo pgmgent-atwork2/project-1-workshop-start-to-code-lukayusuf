@@ -130,3 +130,26 @@ section {
     scroll-margin-top: 24px;
     margin-bottom: 60px;
 }
+
+.back-to-home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.1s;
+}
+
+.back-to-home a {
+    color: white;
+    text-decoration: none;
+}
+
+.back-to-home:hover {
+    background-color: #4a90e2;
+    transform: translateY(-2px);
+}
