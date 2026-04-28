@@ -27,7 +27,7 @@ h1 {
 .tile {
     width: 100px;
     height: 100px;
-    background-image: url('/demo/assets/puzzle.jpeg');
+    background-image: url('../demo/assets/puzzle.jpeg');
     background-size: 300px 300px;
     cursor: pointer;
 }
